@@ -1,0 +1,17 @@
+/* MyMapComponent.css */
+.mapContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust the height as needed */
+  }
+  
+  .map{
+    width: 80%;
+    height: 80%;
+    border-radius: 10px; /* Add border-radius for a rounded corner */
+    transform: perspective(1000px) rotateX(30deg); 
+  }
+
+  
+  

@@ -40,7 +40,7 @@ const Navbar = () => {
         {isLoggedIn &&  <NavLink to="/">Home</NavLink>}
         {isLoggedIn && <NavLink to="/about">About</NavLink>}
         {isLoggedIn && <NavLink to="/checkhealth">Generate</NavLink>}
-        {isLoggedIn && <NavLink to="/healthtips">HealthTips</NavLink>}
+        {isLoggedIn && <NavLink to="/mapcontainer">Map</NavLink>}
         {isLoggedIn && <NavLink to="/contact">Contact</NavLink>}
         {isLoggedIn && 
             <button onClick={logoutHandler}>Logout</button>
